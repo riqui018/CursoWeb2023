@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #tabla2{
+            border-collapse: collapse;
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        #tabla2 th, #tabla2 td{
+            border: 2px solid black;
+            width: 20%;
+            
+        }
+        #tabla2 .celda0{
+            border: none;
+        }
+
+        #tabla1{
+            border-collapse: collapse;
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        #tabla1 th, #tabla1 td{
+            border: 2px solid black;
+            width: 20%;
+            
+        }
+        #tabla1 .celda0{
+            border: none;
+        }
+
+
+    </style>
+</head>
+<body>
+   
+    <h2>Quiero una tabla como la siquiente imagen</h2>
+     <table id="tabla2">
+        <tr>
+            <td class="celda0"></td>
+            <td colspan="4">Caracteristicas</td>
+        </tr>
+        
+        <tr class="fila0">
+            <th class="celda0"></th>
+            <th>Peso (kg)</th>
+            <th>Altura (cm)</th>
+            <th>Edad (Años)</th>
+            <th>Pais</th>
+        </tr>
+        <tr>
+            <th class="col1">Persona 1</th>
+            <td>54</td>
+            <td>155</td>
+            <td>33</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 2</th>
+            <td>83</td>
+            <td >175</td>
+            <td>44</td>
+            <td>Francia</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 3</th>
+            <td>62</td>
+            <td>163</td>
+            <td>55</td>
+            <td>España</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 4</th>
+            <td>71</td>
+            <td>180</td>
+            <td>66</td>
+            <td>Cuba</td>
+        </tr>
+        
+     </table>
+
+     <h2>Quiero una tabla como la siquiente imagen</h2>
+     <table id="tabla1">
+        <tr>
+            <td class="celda0"></td>
+            <td colspan="4">Caracteristicas</td>
+        </tr>
+        
+        <tr class="fila0">
+            <th class="celda0"></th>
+            <th>Peso (kg)</th>
+            <th>Altura (cm)</th>
+            <th>Edad (Años)</th>
+            <th>Pais</th>
+        </tr>
+        <tr>
+            <th class="col1">Persona 1</th>
+            <td>54</td>
+            <td>155</td>
+            <td>33</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 2</th>
+            <td>83</td>
+            <td colspan="2" rowspan="2">175</td>
+            
+            <td>Francia</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 3</th>
+            <td>62</td>
+           
+            
+            <td>España</td>
+        </tr>
+        <tr>
+            <th class="col1">Persona 4</th>
+            <td>71</td>
+            <td>180</td>
+            <td>66</td>
+            <td>Cuba</td>
+        </tr>
+        
+     </table>
+</body>
+</html>

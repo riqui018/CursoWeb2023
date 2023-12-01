@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Imagenes</title>
+    <style>
+        body{
+            text-align: center;
+
+        }
+        img{
+            width: 150px;
+        }
+        #ola{
+            border: 10px solid black;
+            filter: grayscale(0.7);
+            
+        }
+        #logo{
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagenes</h1>
+    <h2>Imagenes en la misma carpeta que este archivo</h2>
+
+    <p>
+        <img id="ola" src="imagen1.jpg" alt="imagen">
+    </p>
+    <h2>Imagenes en un nivel inferios </h2>
+    <p>
+        <img src="img/imagen4.jpg" alt="ciudad">
+        
+        <img id="logo" src="img/logo/logo.png" alt="logo">
+    </p>
+    <h2>imagen en un nivel superior</h2>
+
+    <p>
+        <img src="../imaneges/imagen7.jpg" alt="nubes">
+    </p>
+    <h2>Imagen en un servidor</h2>
+    <p>
+        <img src="https://picsum.photos/200?blur=3" alt="imagen aleatoria ">
+        <img src="https://picsum.photos/id/80/200" alt="imagen aleatoria ">    
+    </p>
+
+</body>
+</html>

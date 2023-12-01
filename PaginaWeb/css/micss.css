@@ -1,0 +1,13 @@
+h1{
+    background-color: azure;
+    color: brown;
+    text-align: center;
+    padding: 2.5em;
+    width: 60%;
+    margin: 120px auto;
+    font-size: 4em;
+
+}
+body{
+    background-color: black;
+}
